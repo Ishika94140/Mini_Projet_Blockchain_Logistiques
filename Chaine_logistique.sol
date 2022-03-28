@@ -37,8 +37,6 @@ using SafeMath for uint256;
     // Store Number of Lot Count
     uint public LotCount;
 
-    // voted event
-    event votedEvent (uint indexed _candidateId);
 
     function addProduct (string memory _idProd, string memory _lot, string memory _name, string memory _lastProd, string memory _dateAchat) public {
         ProductCount ++;
